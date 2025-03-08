@@ -17,11 +17,6 @@ const Contact = () => {
           <FaPhone className="contact-icon" />
           <a href="tel:0645545351">06 45 54 53 51</a>
         </div>
-        
-        <div className="contact-item">
-          <FaEnvelope className="contact-icon" />
-          <a href="mailto:marwah01@outlook.fr">marwah01@outlook.fr</a>
-        </div>
 
         <div className="contact-item">
           <FaEnvelope className="contact-icon" />
