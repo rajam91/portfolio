@@ -27,6 +27,12 @@ const Contact = () => {
           <FaEnvelope className="contact-icon" />
           <a href="mailto:raja_m@etna-alternance.net">raja_m@etna-alternance.net</a>
         </div>
+
+        <div className="contact-item">
+          <FaLinkedin className="contact-icon" />
+          <a href="https://www.linkedin.com/in/marwah-raja" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </div>
+          
       </div>
     </section>
   );
