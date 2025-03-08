@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaPhone, FaEnvelope } from 'react-icons/fa';
+import { FaPhone, FaEnvelope, FaLinkedin } from 'react-icons/fa';
 import '../Contact.css';
 
 const Contact = () => {
@@ -32,7 +32,7 @@ const Contact = () => {
           <FaLinkedin className="contact-icon" />
           <a href="https://www.linkedin.com/in/marwah-raja" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </div>
-          
+
       </div>
     </section>
   );
