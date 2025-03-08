@@ -12,7 +12,7 @@ const projects = [
     title: "Share Ur Pic",
     image: process.env.PUBLIC_URL + "/pic.png",
     description: "Un projet personnel de création d'une application façon Instagram.",
-    link: "https://github.com/rajam91"
+    link: "https://github.com/rajam91/Share-Ur-Pic"
   },
   {
     title: "Fractale de newton",
