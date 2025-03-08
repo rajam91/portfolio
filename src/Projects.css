@@ -1,0 +1,91 @@
+.projects {
+  background: linear-gradient(135deg, #2a2a4d, #3a3a5e);
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 15px;
+  max-width: 1100px;
+  margin: 50px auto;
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.1);
+}
+
+.projects h2 {
+  font-size: 2.5rem;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  background: linear-gradient(90deg, #ff79c6, #bd93f9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.project-card {
+  background: #f9d2d2;
+  color: #333;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2);
+  max-width: 320px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.project-card h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff79c6;
+  margin: 15px 0 10px;
+}
+
+.project-card p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.6;
+  padding: 0 10px;
+}
+
+.project-card a {
+  color: #fff;
+  background-color: #ff79c6;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-top: 10px;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.project-card a:hover {
+  background-color: #bd93f9;
+}
+
+@media (max-width: 768px) {
+  .projects-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card {
+    max-width: 90%;
+  }
+}
