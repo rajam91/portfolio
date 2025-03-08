@@ -7,8 +7,7 @@ const Contact = () => {
     <section id="contact" className="contact">
       <h2>Contactez-moi 📲</h2>
       
-      <p className="contact-text">
-        Vous pouvez me contacter via mon numéro de téléphone ou par e-mail. 
+      <p className="contact-text"> 
         N’hésitez pas à me joindre pour toute question, collaboration ou opportunité !
       </p>
 
