@@ -19,6 +19,12 @@ const projects = [
     image: process.env.PUBLIC_URL + "/fractale.png",
     description: "Un petit projet mathématique en python.",
     link: "https://github.com/rajam91/Newtons-Fractale"
+  },
+  {
+    title: "Générateur de mot de passe",
+    image: process.env.PUBLIC_URL + "/password.JPG",
+    description: "Un générateur de mot de passe en python.",
+    link: "https://github.com/rajam91/password-generator"
   }
 ];
 
