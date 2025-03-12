@@ -4,7 +4,15 @@ body {
   padding: 0;
   background-color: #1e1e2f;
   color: white;
-  text-align: center;
+  text-align: center; 
+  /*
+  background-image: url('/Users/marwah/portfolio/public/jojo.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  background-color: rgba(255, 255, 255, 0);
+  */
+  
 }
 
 .container {

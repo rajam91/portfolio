@@ -8,11 +8,11 @@ const Likes = () => {
       image: process.env.PUBLIC_URL + "/cs.JPG",
       description: "Passionnée par l’univers du développement, de l’IA et des nouvelles technologies.",
     },
-    {
-      title: "Beauté & Maquillage",
-      image: process.env.PUBLIC_URL + "/makeup.JPG",
-      description: "J’adore l’univers de la beauté et l’art du maquillage, un moyen d’expression infini.",
-    },
+    //{
+     // title: "Beauté & Maquillage",
+      //image: process.env.PUBLIC_URL + "/makeup.JPG",
+      //description: "J’adore l’univers de la beauté et l’art du maquillage, un moyen d’expression infini.",
+    //},
     {
       title: "Cosmologie",
       image: process.env.PUBLIC_URL + "/space.JPG",
@@ -22,7 +22,12 @@ const Likes = () => {
       title: "Lecture",
       image: process.env.PUBLIC_URL + "/reading.JPG",
       description: `"L'homme est ce qu'il croit." — Fiodor Dostoïevski`,
-    }
+    },
+    {
+      title:"Manga & Anime",
+      image: process.env.PUBLIC_URL + "/jojo.JPG",
+      description: "Ce sont pour moi une source infinie d'imagination"
+    },
   ];
 
   return (
