@@ -8,11 +8,11 @@ const Likes = () => {
       image: process.env.PUBLIC_URL + "/cs.JPG",
       description: "Passionnée par l’univers du développement, de l’IA et des nouvelles technologies.",
     },
-    //{
-     // title: "Beauté & Maquillage",
-      //image: process.env.PUBLIC_URL + "/makeup.JPG",
-      //description: "J’adore l’univers de la beauté et l’art du maquillage, un moyen d’expression infini.",
-    //},
+    {
+      title: "Beauté & Maquillage",
+      image: process.env.PUBLIC_URL + "/makeup.JPG",
+      description: "J’adore l’univers de la beauté et l’art du maquillage, un moyen d’expression infini.",
+    },
     {
       title: "Cosmologie",
       image: process.env.PUBLIC_URL + "/space.JPG",
