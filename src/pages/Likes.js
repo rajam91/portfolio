@@ -14,7 +14,7 @@ const Likes = () => {
       description: "J’adore l’univers de la beauté et du cosmétique un moyen d’expression infini.",
     },
     {
-      title: "Cosmologie",
+      title: "L'astrophysique",
       image: process.env.PUBLIC_URL + "/space.JPG",
       description: "L’univers et ses mystères m’inspirent chaque jour à explorer et à apprendre davantage.",
     },
