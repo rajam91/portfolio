@@ -25,6 +25,18 @@ const projects = [
     image: process.env.PUBLIC_URL + "/password.JPG",
     description: "Un générateur de mot de passe en python.",
     link: "https://github.com/rajam91/password-generator"
+  },
+  {
+    title: "Drawing Page",
+    image: process.env.PUBLIC_URL + "/drawing.JPG",
+    description: "Une page de dessin en ligne.",
+    link: "https://github.com/rajam91/drawing-app"
+  },
+  {
+    title: "Rock Paper Scissors",
+    image: process.env.PUBLIC_URL + "/rpc.JPG",
+    description: "Le jeu pierre-feuille-ciseau.",
+    link: "https://github.com/rajam91/Rock-paper-scissors"
   }
 ];
 

@@ -1,77 +1,39 @@
-.skills {
-  background: linear-gradient(135deg, #252547, #35355a);
-  color: #fff;
-  text-align: center;
-  padding: 40px 15px;
-  border-radius: 12px;
-  max-width: 900px;
-  margin: 40px auto;
-  box-shadow: 0px 3px 12px rgba(255, 255, 255, 0.1);
-}
 
-.skills h2 {
-  font-size: 2rem;
-  font-family: 'Playfair Display', serif;
-  font-weight: bold;
-  background: linear-gradient(90deg, #ff79c6, #bd93f9);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 15px;
+.skills {
+  background-color: #D8E2DC;
+  padding: 60px 20px;
+  text-align: center;
 }
 
 .skills-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .skill {
-  background: rgba(255, 255, 255, 0.1);
-  padding: 15px;
-  border-radius: 12px;
-  box-shadow: 0px 3px 10px rgba(255, 255, 255, 0.15);
+  background-color: #FFE5D9;
+  padding: 20px;
+  border-radius: 8px;
   text-align: center;
-  transition: transform 0.3s ease-in-out, background 0.3s;
-  width: 100px;
-}
-
-.skill:hover {
-  transform: translateY(-5px);
-  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
 .skill img {
   width: 50px;
   height: 50px;
-  object-fit: contain;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .skill p {
-  font-family: 'Poppins', sans-serif;
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: #fff;
+  font-family: 'Space Mono', monospace;
+  font-size: 18px;
+  color: #9D8189;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .skills {
-      padding: 30px 10px;
-  }
-
-  .skill {
-      width: 80px;
-  }
-
-  .skill img {
-      width: 40px;
-      height: 40px;
-  }
-
-  .skill p {
-      font-size: 0.8rem;
-  }
+.skill:hover {
+  transform: translateY(-10px);
 }

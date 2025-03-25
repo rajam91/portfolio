@@ -5,17 +5,19 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Likes from './pages/Likes';
-import Skills from './pages/Skills'
+import Skills from './pages/Skills';
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <Header />
-      <About />
-      <Projects />
-      <Skills/>
-      <Likes />
-      <Contact />
+      <main>
+        <About />
+        <Projects />
+        <Skills />
+        <Likes />
+        <Contact />
+      </main>
     </div>
   );
 }

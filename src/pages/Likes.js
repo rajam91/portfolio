@@ -9,11 +9,6 @@ const Likes = () => {
       description: "Passionnée par l’univers du développement, de l’IA et des nouvelles technologies.",
     },
     {
-      title: "Beauté & Cosmétique",
-      image: process.env.PUBLIC_URL + "/makeup.JPG",
-      description: "J’adore l’univers de la beauté et du cosmétique un moyen d’expression infini.",
-    },
-    {
       title: "L'astrophysique",
       image: process.env.PUBLIC_URL + "/space.JPG",
       description: "L’univers et ses mystères m’inspirent chaque jour à explorer et à apprendre davantage.",
@@ -28,11 +23,16 @@ const Likes = () => {
       image: process.env.PUBLIC_URL + "/jojo.JPG",
       description: "Ce sont pour moi une source infinie d'imagination"
     },
+    {
+      title: "Beauté & Cosmétique",
+      image: process.env.PUBLIC_URL + "/makeup.JPG",
+      description: "J’adore l’univers de la beauté et du cosmétique un moyen d’expression infini.",
+    },
   ];
 
   return (
     <section id="likes" className="likes">
-      <h2>Mes intérêts 🩷 </h2>
+      <h2>Mes intérêts</h2>
       
       <p className="intro-text">
         D’un regard extérieur, mes passions pourraient sembler éparpillées aux quatre vents, 
